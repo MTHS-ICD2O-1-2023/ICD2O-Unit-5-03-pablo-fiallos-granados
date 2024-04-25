@@ -1,17 +1,99 @@
 <mxfile host="65bd71144e">
     <diagram id="HIP3nbAZw_EuaXWnEj3U" name="Page-1">
-        <mxGraphModel dx="443" dy="296" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="1278" dy="392" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
-                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;" edge="1" parent="1" source="2" target="3">
-                    <mxGeometry relative="1" as="geometry"/>
+                <mxCell id="4" style="edgeStyle=orthogonalEdgeStyle;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="2" target="7" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="385" y="500" as="targetPoint"/>
+                    </mxGeometry>
                 </mxCell>
                 <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="230" y="310" width="100" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="3" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
-                    <mxGeometry x="230" y="450" width="100" height="60" as="geometry"/>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Ask for user's&lt;br&gt;age" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;rounded=0;" edge="1" parent="1" source="8" target="12">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="520" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="18">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="170" y="514" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="if age &amp;gt;= 17" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="240" y="480" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="520" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="12" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="show: &quot;You can&lt;br&gt;see an R movie&lt;br&gt;alone.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="370" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="520" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="if age &amp;gt;= 13" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="480" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="19" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="show: &quot;You can&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;see a PG-13 &lt;br&gt;movie alone.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="90" y="380" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="True" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="450" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="560" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="29">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="270" y="640" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="26" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="if age &amp;gt;= 5" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="580" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="29" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="show: &quot;You&lt;br&gt;&amp;nbsp;can see a G or PG movie alone.&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="600" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="True" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="598" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.22;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="32" target="2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="show: &lt;br&gt;&quot;You can see &lt;br&gt;nothing&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry y="460" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=0;shadow=0;sketch=0;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="600" width="50" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
